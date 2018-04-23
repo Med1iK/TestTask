@@ -33,7 +33,7 @@ public class run extends FindUI {
 
 
     waitByID(CatalogueScreen.banner()).isEnabled();
-     Thread.sleep(7000); // Виноват, каюсь) (не хватило времени)
+     Thread.sleep(7000); // каюсь)
      waitByXpath(CatalogueScreen.navigationDrawer());
      System.out.println("Menu button enable");
         waitByXpath(CatalogueScreen.navigationBarTitle());
